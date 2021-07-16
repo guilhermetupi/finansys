@@ -46,10 +46,18 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/toastr/build/toastr.min.css",
+              "node_modules/primeicons/primeicons.css",
+              "node_modules/primeng/resources/themes/saga-blue/theme.css",
+              "node_modules/primeng/resources/primeng.min.css"
             ],
-            "scripts": [],
-            "es5BrowserSupport": true
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "node_modules/chart.js/dist/Chart.bundle.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -155,5 +163,8 @@
       }
     }
   },
-  "defaultProject": "finansys"
+  "defaultProject": "finansys",
+  "cli": {
+    "analytics": "a75c194d-1791-43b9-810c-7aeba2db7ce2"
+  }
 }
