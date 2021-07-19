@@ -6,6 +6,10 @@ const routes: Routes = [
     path: 'categories',
     loadChildren: './views/categories/categories.module#CategoriesModule',
   },
+  {
+    path: 'entries',
+    loadChildren: './views/entries/entries.module#EntriesModule',
+  },
 ];
 
 @NgModule({
